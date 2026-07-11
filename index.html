@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IncluVOZ IA</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+</head>
+
+<body>
+
+    <div class="logo">
+        <div class="icono">🤟</div>
+
+        <div>
+            <h1>IncluVOZ IA</h1>
+            <p>Comunicación sin barreras</p>
+        </div>
+    </div>
+
+    <div class="fecha" id="fecha"></div>
+
+    <video id="video" autoplay playsinline></video>
+
+    <div class="botones">
+        <button onclick="iniciarReconocimiento()">🎤 Hablar</button>
+        <button onclick="leerTexto()">🔊 Escuchar</button>
+    </div>
+
+    <textarea id="texto"></textarea>
+
+    <h3>Historial</h3>
+    <div id="historial"></div>
+
+    <p id="estado">Iniciando sistema...</p>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

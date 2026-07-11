@@ -1,0 +1,23 @@
+.logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.icono{
+    font-size:60px;
+}
+
+.logo h1{
+    margin:0;
+    color:#1565C0;
+    font-size:48px;
+}
+
+.logo p{
+    margin:0;
+    color:#666;
+    font-size:18px;
+}
